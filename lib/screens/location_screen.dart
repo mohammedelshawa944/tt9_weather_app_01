@@ -3,11 +3,12 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:geolocator/geolocator.dart';
+import 'package:weather_app/services/location.dart';
 
 import '../utilities/constants.dart';
 
 class LocationScreen extends StatefulWidget {
-  final Position position;
+  final Location position;
   const LocationScreen({super.key, required this.position});
 
   @override

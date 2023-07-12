@@ -20,3 +20,5 @@ const kConditionTextStyle = TextStyle(
   fontSize: 100.0,
 );
 const kSecondaryColor = Color(0xff74cace);
+
+const apiKey = 'f716a43596a928023a827e6beeb88596';
