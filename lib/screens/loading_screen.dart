@@ -31,7 +31,7 @@ class LoadingScreenState extends State<LoadingScreen> {
 
 
   Future<void> getData(double lat, double long)async {
-    String url = 'https://api.openweathermap.org/data/2.5/weather?lat=$lat&lon=$long&appid=$apiKey';
+    String url = 'https://api.openweathermap.org/data/2.5/weather?lat=$lat&lon=$long&appid=$kApiKey';
     // Response return body + statuscode
     http.Response response= await http.get(Uri.parse(url));
 
